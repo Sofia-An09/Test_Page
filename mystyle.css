@@ -1,0 +1,360 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(0deg, rgba(255, 163, 165, 0.29), rgba(255, 163, 165, 0.29)), #FFFFFF;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Navigation */
+.navigation {
+    position: absolute;
+    height: 164px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.logo {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.nav-items {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.nav-items a {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Article Title */
+.article-title {
+    position: absolute;
+    left: 80px;
+    top: 244px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 905px;
+}
+
+.article-title h1 {
+    font-family: 'Abel', serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.article-title p {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+/* Image */
+.main-image {
+    position: absolute;
+    left: 80px;
+    right: 79px;
+    top: 497px;
+    height: 650px;
+    background: url(../images/main_photo_candy_bars.jpg) center/cover;
+    border-radius: 8px;
+}
+
+/* Paragraph */
+.main-paragraph {
+    position: absolute;
+    width: 1281px;
+    left: 80px;
+    top: 1186px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+/* Section Title */
+.section-title {
+    position: absolute;
+    width: 894px;
+    left: 273px;
+    top: 1550px;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+/* Table */
+.table-container {
+    position: absolute;
+    width: 1220px;
+    left: 110px;
+    top: 1630px;
+    background: linear-gradient(0deg, rgba(203, 249, 241, 0.2), rgba(203, 249, 241, 0.2)), #EE82EE;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.table-row {
+    display: flex;
+    border-top: 1px solid #000000;
+}
+
+.table-row:first-child {
+    border-top: none;
+}
+
+.table-cell {
+    padding: 10px 12px;
+    border-left: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-cell:first-child {
+    border-left: none;
+    width: 316px;
+    font-family: 'Sedan', serif;
+    font-size: 45px;
+    line-height: 52px;
+}
+
+.table-cell:last-child {
+    flex: 1;
+    font-family: 'Roboto', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* Products Section */
+.products-title {
+    position: absolute;
+    width: 592px;
+    left: 424px;
+    top: 2000px;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+/* Products List */
+.products-list {
+    position: absolute;
+    width: 800px;
+    left: 320px;
+    top: 2160px;
+}
+
+.products-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.products-list li {
+    font-family: 'Roboto', serif;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.products-list li::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #EE82EE;
+    font-size: 20px;
+}
+
+.products-list li strong {
+    font-weight: 700;
+}
+
+.products-list li br + text,
+.products-list li::after {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.65);
+    font-style: italic;
+}
+
+/* Cards */
+.cards-container {
+    position: absolute;
+    left: 29px;
+    top: 2600px;
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-image {
+    border-radius: 8px;
+    background: #F7F7F7;
+}
+
+.card:nth-child(1) .card-image {
+    width: 335px;
+    height: 328px;
+    background: url(../images/chocolate_with_filling.jpg) center/cover;
+}
+
+.card:nth-child(2) .card-image {
+    width: 321px;
+    height: 328px;
+    background: url(../images/chocolate_with_topping.jpg) center/cover;
+}
+
+.card:nth-child(3) .card-image {
+    width: 318px;
+    height: 325px;
+    background: url(../images/choco_bars.jpg) center/cover;
+}
+
+.card:nth-child(4) .card-image {
+    width: 303px;
+    height: 323px;
+    background: url(../images/candies.jpg) center/cover;
+}
+
+.card-title {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+/* Delivery Info */
+.delivery-info {
+    position: absolute;
+    width: 733px;
+    left: 316px;
+    top: 3100px;
+    font-family: 'Roboto', serif;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+/* Посилання в Delivery Info */
+.delivery-info a {
+    color: #EE82EE;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.3s ease;
+}
+
+.delivery-info a:hover {
+    color: #DA70D6;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    height: 137px;
+    left: 0;
+    right: 0;
+    top: 3466px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.footer-logo {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.social-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #828282;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 48px;
+}
+
+.footer-nav a {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
