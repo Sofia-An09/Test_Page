@@ -83,7 +83,7 @@ body {
     right: 79px;
     top: 497px;
     height: 650px;
-    background: url(main_photo_candy_bars.jpg) center/cover;
+    background: url(../images/main_photo_candy_bars.jpg) center/cover;
     border-radius: 8px;
 }
 
@@ -244,25 +244,25 @@ body {
 .card:nth-child(1) .card-image {
     width: 335px;
     height: 328px;
-    background: url(chocolate_with_filling.jpg) center/cover;
+    background: url(../images/chocolate_with_filling.jpg) center/cover;
 }
 
 .card:nth-child(2) .card-image {
     width: 321px;
     height: 328px;
-    background: url(chocolate_with_topping.jpg) center/cover;
+    background: url(../images/chocolate_with_topping.jpg) center/cover;
 }
 
 .card:nth-child(3) .card-image {
     width: 318px;
     height: 325px;
-    background: url(choco_bars.jpg) center/cover;
+    background: url(../images/choco_bars.jpg) center/cover;
 }
 
 .card:nth-child(4) .card-image {
     width: 303px;
     height: 323px;
-    background: url(candies.jpg) center/cover;
+    background: url(../images/candies.jpg) center/cover;
 }
 
 .card-title {
@@ -357,5 +357,4 @@ body {
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-
 }
