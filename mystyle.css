@@ -83,7 +83,7 @@ body {
     right: 79px;
     top: 497px;
     height: 650px;
-    background: url("images/main_photo_candy_bars.jpg") center/cover;
+    background: url(images/main_photo_candy_bars.jpg) center/cover;
     border-radius: 8px;
 }
 
@@ -358,5 +358,6 @@ body {
     color: #000000;
     text-decoration: none;
 }
+
 
 
